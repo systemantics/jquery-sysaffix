@@ -1,0 +1,97 @@
+@import "reset.css";
+
+#header {
+	background: #ff3232;
+	box-sizing: border-box;
+	color: #fff;
+	height: 300px;
+	font: normal 20px/20px sans-serif;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	padding-top: 140px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#sidebar {
+	background: #ff3232;
+	background: -moz-linear-gradient(top,  #ff3232 0%, #3232ff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3232), color-stop(100%,#3232ff));
+	background: -webkit-linear-gradient(top,  #ff3232 0%,#3232ff 100%);
+	background: -o-linear-gradient(top,  #ff3232 0%,#3232ff 100%);
+	background: -ms-linear-gradient(top,  #ff3232 0%,#3232ff 100%);
+	background: linear-gradient(to bottom,  #ff3232 0%,#3232ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#3232ff',GradientType=0 );
+
+	height: 1000px;
+	width: 25%;
+}
+
+#sidebar:before {
+	color: #fff;
+	content: "sidebar top";
+	font: normal 20px/20px sans-serif;
+	position: absolute;
+	text-align: center;
+	top: 10px;
+	width: 100%;
+}
+
+#sidebar:after {
+	bottom: 10px;
+	color: #fff;
+	content: "sidebar bottom";
+	font: normal 20px/20px sans-serif;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#main {
+	background: #323232;
+	background: -moz-linear-gradient(top,  #323232 0%, #cdcdcd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#323232), color-stop(100%,#cdcdcd));
+	background: -webkit-linear-gradient(top,  #323232 0%,#cdcdcd 100%);
+	background: -o-linear-gradient(top,  #323232 0%,#cdcdcd 100%);
+	background: -ms-linear-gradient(top,  #323232 0%,#cdcdcd 100%);
+	background: linear-gradient(to bottom,  #323232 0%,#cdcdcd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323232', endColorstr='#cdcdcd',GradientType=0 );
+
+	height: 3000px;
+	margin-left: 25%;
+	position: relative;
+	width: 75%;
+}
+
+#main:before {
+	color: #fff;
+	content: "main content top";
+	font: normal 20px/20px sans-serif;
+	position: absolute;
+	text-align: center;
+	top: 10px;
+	width: 100%;
+}
+
+#main:after {
+	bottom: 10px;
+	color: #fff;
+	content: "main content bottom";
+	font: normal 20px/20px sans-serif;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#footer {
+	background: #3232ff;
+	box-sizing: border-box;
+	color: #fff;
+	height: 300px;
+	font: normal 20px/20px sans-serif;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	padding-top: 140px;
+	text-align: center;
+	text-transform: uppercase;
+}
