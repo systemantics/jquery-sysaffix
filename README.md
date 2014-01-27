@@ -1,14 +1,14 @@
-# jQuery sysAffix – The better affix
+# jQuery sysAffix – The better affix (or sticky sidebar)
 
 ## Description
 
-sysAffix keeps a sidebar in view while the main content is scrolling. Unlike many other plugins, sysAffix provides a solution for long sidebars: The sidebar gets scrolled as well! When scrolling towards the bottom of the content, the sidebar sticks with its bottom to the bottom of the window. To reveal the top of the sidebar again, scroll the required amount back towards the top. When scrolling further towards the top, the sidebar becomes sticky again.
+Similar to Bootstrap‘s affix, sysAffix keeps a sidebar in view while the main content is scrolling. Unlike [many](http://bbarakaci.github.com/fixto/) [other](http://mojotech.github.com/stickymojo/) [plugins](http://spoiledmilk.com/blog/sticky-sidebar/) that produce sticky sidebars, sysAffix provides a solution for huge sidebars: The sidebar gets scrolled as well! When scrolling towards the bottom of the content, the sidebar sticks with its bottom to the bottom of the window. To reveal the top of the sidebar again, scroll the required amount back towards the top. When scrolling further towards the top, the sidebar becomes sticky again.
 
 Of course, sysAffix (the better affix) also releases the sidebar when either header or footer are reached.
 
 ## Demo
 
-Want to see a demo? [Give it a try!](demo.html)
+Want to see a demo? [Give it a try!](http://www.systemantics.net/jquery-sysaffix/demo.html)
 
 ## Out in the wild
 
